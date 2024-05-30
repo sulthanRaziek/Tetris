@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <h1 id="gamekelomkok">Game Tetris</h1>
+  <body>
+    
+    <canvas id="canvas" 
+    width="400" height="600"> 
+    </canvas>
+
+    <canvas
+      id="nextShapeCanvas"
+      width="200" height="200"
+    >
+    </canvas>
+
+    <canvas
+      id="scoreCanvas"
+      width="150" height="60"
+    >
+    </canvas>
+
+    <div class="project">
+      <h2>Kelompok :</h2>
+    </div>
+    <div class="namanpm">
+      <ol>
+        <li>SULTAN RAZHIEK (51421444)</li>
+      </ol>
+    </div>
+
+    <button 
+    id="startButton" 
+    class="start">Start Game</button>
+    <button
+    id = button
+      class="button1"
+      style="
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: rgb(215, 46, 46);
+        border: 0px;
+      "
+      onClick="resetVars()"
+    >
+      <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%">
+        <use class="ytp-svg-shadow" xlink:href="#ytp-id-54"></use>
+        <path
+          class="ytp-svg-fill"
+          fill="#ffffff"
+          d="M 18,11 V 7 l -5,5 5,5 v -4 c 3.3,0 6,2.7 6,6 0,3.3 -2.7,6 -6,6 -3.3,0 -6,-2.7 -6,-6 h -2 c 0,4.4 3.6,8 8,8 4.4,0 8,-3.6 8,-8 0,-4.4 -3.6,-8 -8,-8 z"
+          id="ytp-id-54"
+        ></path>
+      </svg>
+    </button>
+
+    <img id="image" src="warnablok.png" style="display: none" />
+
+    <!-- Input musik -->
+    <form id="music-form">
+      <input type="file" id="music-file" accept="audio/*">
+      <button type="submit" id="music-submit" class="custom-button0" >Submit</button>
+    </form>
+    <div>
+        <button id="pause" class="custom-button1">Pause</button>
+        <button id="stop" class="custom-button2" >Stop</button>
+        <button id="continue" class="custom-button3" >Continue</button>
+    </div>
+    <audio id="music" preload="auto" loop>
+    </audio>
+
+    <script src="tetris.js"></script>
+  </body>
+</html>
+    <!-- <form id="music-form">
+      <input type="file" id="music-file" accept="audio/*">
+      <button type="submit" id="music-submit">Submit</button>
+    </form>
+    <audio id="music" preload="auto" loop>
+      <source src="path/to/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="music" preload="auto">
+      <source src="path/to/music.mp3" type="audio/mpeg">
+    </audio>
+    <div id="player">
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+      <button id="play">Play</button>
+    </div> -->
+
+
+    <!-- <form id="youtube-form" masih salah>
+      <input type="search" id="youtube-search" placeholder="Search for videos on YouTube...">
+      <button type="submit">Search</button>
+    </form>
+    <div id="youtube-results"></div> -->

@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman, serif, Arial, sans-serif;
+  background-image: url("tetrismulticolored");
+  background-size: 125% auto; /* Adjust the percentage value to resize the background image */
+  background-repeat: no-repeat;
+  background-position: 1% 40%; /* Adjust the percentage or pixel values to move the background image */
+}
+  
+
+
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+#nextShapeCanvas {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+#scoreCanvas {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    
+  }
+  
+#reset {
+    position: absolute;
+    top: 53%;
+    left: 66%;
+    transform: translateX(-50%);
+  }
+
+#gamekelomkok {
+    text-align: center;
+    
+  }
+
+.kelompok {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+.namanpm {
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    transform: translateX(-50%);
+    text-align: left;
+  }
+  
+
+  .button1 {
+    position: absolute;
+    top: 600px; /* Adjust the value to move the button vertically */
+    left: 960px; /* Adjust the value to move the button horizontally */
+    display: block;
+    width: 10%;
+    max-width: 64px;
+    height: auto;
+    border-radius: 50%;
+    background-color: rgb(215, 46, 46);
+    border: 0;
+  }
+
+
+  .start {
+    position: absolute;
+    top: 670px;
+    left: 700px;
+    width: 10%;
+    max-width: 64px;
+    height: auto;
+    border-radius: 50%;
+    background-color: rgb(215, 46, 46);
+    border: 0;
+  }
+
+
+/* tombol musik   */
+  .custom-button0 {
+    position: absolute;
+    top: 660px; /* Adjust the value to move the button vertically */
+    left: 200px; /* Adjust the value to move the button horizontally */
+    border: none;
+    font-size: 14px;
+    background-color: #ce2e2e;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .custom-button1 {
+    position: absolute;
+    top: 720px; /* Adjust the value to move the button vertically */
+    left: -9px; /* Adjust the value to move the button horizontally */
+    border: none;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .custom-button2 {
+    position: absolute;
+    top: 720px; /* Adjust the value to move the button vertically */
+    left: 100px; /* Adjust the value to move the button horizontally */
+    border: none;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .custom-button3 {
+    position: absolute;
+    top: 720px; /* Adjust the value to move the button vertically */
+    left: 200px; /* Adjust the value to move the button horizontally */
+    border: none;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
